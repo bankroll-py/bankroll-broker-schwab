@@ -1,5 +1,5 @@
-from bankroll import AccountBalance, Cash, Currency, Stock, Bond, Option, OptionType, Position, CashPayment, Trade, TradeFlags
-from bankroll.brokers import schwab
+from bankroll.model import AccountBalance, Cash, Currency, Stock, Bond, Option, OptionType, Position, CashPayment, Trade, TradeFlags
+import bankroll.brokers.schwab as schwab
 from datetime import date
 from decimal import Decimal
 from itertools import groupby
