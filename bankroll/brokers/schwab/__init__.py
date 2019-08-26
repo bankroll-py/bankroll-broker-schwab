@@ -1,3 +1,3 @@
-from .account import SchwabAccount
+from .account import SchwabAccount, Settings
 
-__all__ = ["SchwabAccount"]
+__all__ = ["SchwabAccount", "Settings"]
